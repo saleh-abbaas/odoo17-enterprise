@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_cheque,access.account.cheque,bi_account_cheque.model_account_cheque,,1,1,1,1
+access_cheque_transfered_wizard,access.cheque.transfered.wizard,bi_account_cheque.model_cheque_transfered_wizard,,1,1,1,1
+access_report_wizard,access.report.wizard,bi_account_cheque.model_report_wizard,,1,1,1,1
+access_cheque_wizard,access.cheque.wizard,bi_account_cheque.model_cheque_wizard,,1,1,1,1
+access_dynamic_cheque,access_dynamic_cheque,bi_account_cheque.model_dynamic_cheque,base.group_user,1,1,1,1
+access_dynamic_cheque_report_wizard,access_dynamic_cheque_report_wizard,bi_account_cheque.model_dynamic_cheque_report_wizard,base.group_user,1,1,1,1
+access_register_cheque_payment,access_register_cheque_payment,bi_account_cheque.model_register_cheque_payment,base.group_user,1,1,1,1

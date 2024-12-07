@@ -1,0 +1,563 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_account_cheque
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 12:59+0000\n"
+"PO-Revision-Date: 2021-07-29 12:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "<b>Incoming Account Cheque Report</b>"
+msgstr "<b>Rapport de vérification de compte entrant</b>"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "<b>Outgoing Account Cheque Report</b>"
+msgstr "<b>Rapport de vérification de compte sortant</b>"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "<strong>End Date:</strong>"
+msgstr "<strong>Date de fin:</strong>"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>Date de début:</strong>"
+
+#. module: bi_account_cheque
+#: model:ir.actions.report,name:bi_account_cheque.account_cheque_report_id
+msgid "Account Cheque"
+msgstr "Vérification du compte"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.bi_account_cheque_inherit_res_config_view
+msgid "Account Cheque Configuration"
+msgstr "Configuration de la vérification du compte"
+
+#. module: bi_account_cheque
+#: model:ir.actions.act_window,name:bi_account_cheque.action_report_wizard
+#: model:ir.ui.menu,name:bi_account_cheque.menu_account_cheque_report
+msgid "Account Cheque Report"
+msgstr "Rapport de vérification de compte"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Add an internal note..."
+msgstr "Ajouter une note interne..."
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__amount
+msgid "Amount"
+msgstr "Montante"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_ir_attachment
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__attchment_ids
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Attachment"
+msgstr "Attachement"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__attachment_count
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_ir_attachment__account_cheque_id
+msgid "Attchments"
+msgstr "Pièces jointes"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__bank_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__bank_account_id
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Bank Account"
+msgstr "Compte bancaire"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__bounced
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__bounced
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Bounced"
+msgstr "rebondi"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__cancel
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__cancel
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_transfered_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.report_form_account_cheque
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__cash_journal_id
+msgid "Cash Journal"
+msgstr "Journal de caisse"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Cashed"
+msgstr "Encaissée"
+
+#. module: bi_account_cheque
+#: model:ir.actions.act_window,name:bi_account_cheque.cheque_wizard_action
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_wizard_wizard_view
+msgid "Cheque"
+msgstr "Chèque"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Cashed/Bounced Date"
+msgstr "Date d'encaissement/remboursement du chèque"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__cheque_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__chequed_date
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Date"
+msgstr "Date de vérification"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__cheque_given_date
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Given Date"
+msgstr "Vérifier la date donnée"
+
+#. module: bi_account_cheque
+#: model:ir.ui.menu,name:bi_account_cheque.menu_account_cheque
+msgid "Cheque Management"
+msgstr "Gestion des chèques"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__cheque_number
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Number"
+msgstr "Numéro du chèque"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__cheque_receive_date
+msgid "Cheque Receive Date"
+msgstr "Vérifier la date de réception"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__cheque_return_date
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Return Date"
+msgstr "Vérifier la date de retour"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_transfered_wizard_wizard_view
+msgid "Cheque Transfer"
+msgstr "Chèque Virement"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Cheque Transfer/Cashed/Bounced Date"
+msgstr "Date de transfert/encaissement/remboursement de chèque"
+
+#. module: bi_account_cheque
+#: model:ir.actions.act_window,name:bi_account_cheque.cheque_transfered_wizard_action
+msgid "Cheque Transfered Wizard"
+msgstr "Assistant de chèque transféré"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__account_cheque_type
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__cheque_type
+msgid "Cheque Type"
+msgstr "Type de chèque"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__comment
+msgid "Comment"
+msgstr "Commenter"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_res_company
+msgid "Companies"
+msgstr "Entreprises"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__company_id
+msgid "Company"
+msgstr "Compagnie"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__contact_id
+msgid "Contact"
+msgstr "Contact"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__create_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__create_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__create_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__create_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__create_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__create_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__credit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__in_credit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__out_credit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__in_credit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__out_credit_account_id
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Credit Account"
+msgstr "Compte créditeur"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__debit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__in_debit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__out_debit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__in_debit_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__out_debit_account_id
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Debit Account"
+msgstr "Compte de débit"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+msgid "Deposite"
+msgstr "Dépôt"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__deposite_account_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__deposite_account_id
+msgid "Deposite Account"
+msgstr "Compte de dépôt"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__deposited
+msgid "Deposited"
+msgstr "Déposée"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Description"
+msgstr "La description"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__display_name
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__display_name
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__display_name
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_bi_account_cheque_account_cheque_template__display_name
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__cashed
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__cashed
+msgid "Done"
+msgstr "Terminé"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__draft
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__from_date
+msgid "From Date"
+msgstr "Partir de la date"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_bi_account_cheque_account_cheque_template__id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__in_count
+msgid "Incoice"
+msgstr "Facture d'achat"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__account_cheque_type__incoming
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__report_wizard__cheque_type__incoming
+msgid "Incoming"
+msgstr "Entrante"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.bi_account_cheque_inherit_res_config_view
+msgid "Incoming Account"
+msgstr "Compte entrant"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_tree_view
+msgid "Incoming Account Cheque"
+msgstr "Chèque de compte entrant"
+
+#. module: bi_account_cheque
+#: model:ir.actions.act_window,name:bi_account_cheque.action_incoming_cheque
+#: model:ir.ui.menu,name:bi_account_cheque.menu_sub_incoming_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+msgid "Incoming Cheque"
+msgstr "Chèque entrant"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__invoice_ids
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__is_outgoing
+msgid "Is Outgoing"
+msgstr "Est sortant"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__journal_id
+msgid "Journal"
+msgstr "Journal"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_account_move
+msgid "Journal Entries"
+msgstr "Écritures de journal"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_move__account_cheque_id
+msgid "Journal Item"
+msgstr "Article de journal"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__journal_items_count
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Journal Items"
+msgstr "Éléments de journal"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque____last_update
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard____last_update
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard____last_update
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_bi_account_cheque_account_cheque_template____last_update
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__write_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__write_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__write_uid
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__write_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__write_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_wizard__write_date
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__is_partial
+msgid "Not reconciled"
+msgstr "Non réconcilié"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__account_cheque_type__outgoing
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__report_wizard__cheque_type__outgoing
+msgid "Outgoing"
+msgstr "Sortante"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.bi_account_cheque_inherit_res_config_view
+msgid "Outgoing Account"
+msgstr "Compte sortant"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_tree_view
+msgid "Outgoing Account Cheque"
+msgstr "Vérification du compte sortant"
+
+#. module: bi_account_cheque
+#: model:ir.actions.act_window,name:bi_account_cheque.action_outgoing_cheque
+#: model:ir.ui.menu,name:bi_account_cheque.menu_sub_outgoing_cheque
+msgid "Outgoing Cheque"
+msgstr "Chèque sortant"
+
+#. module: bi_account_cheque
+#: code:addons/bi_account_cheque/models/account_cheque.py:0
+#, python-format
+msgid "Outstanding credits"
+msgstr "Crédits en cours"
+
+#. module: bi_account_cheque
+#: code:addons/bi_account_cheque/models/account_cheque.py:0
+#, python-format
+msgid "Outstanding debits"
+msgstr "Débits impayés"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__payee_user_id
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Payee"
+msgstr "Bénéficiaire"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_tree_view
+msgid "Payer"
+msgstr "Payeuse"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Payment Matching"
+msgstr "Correspondance des paiements"
+
+#. module: bi_account_cheque
+#: code:addons/bi_account_cheque/models/account_cheque.py:0
+#, python-format
+msgid "Please Enter Amount Of Cheque"
+msgstr "Veuillez saisir le montant du chèque"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__registered
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__registered
+msgid "Registered"
+msgstr "Inscrite"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__re_amount
+msgid "Remaining Amount"
+msgstr "Montant restant"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__return
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status__return
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+msgid "Returned"
+msgstr "Revenu"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__sequence
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_company__specific_journal_id
+#: model:ir.model.fields,field_description:bi_account_cheque.field_res_config_settings__specific_journal_id
+msgid "Specific Journal"
+msgstr "Journal spécifique"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__status
+#: model:ir.model.fields,field_description:bi_account_cheque.field_account_cheque__status1
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_cheque_report_template_document
+msgid "Status"
+msgstr "Statut"
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_outgoing_cheque_form_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_transfered_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.report_form_account_cheque
+msgid "Submit"
+msgstr "Soumettre"
+
+#. module: bi_account_cheque
+#: code:addons/bi_account_cheque/models/account_cheque.py:0
+#: code:addons/bi_account_cheque/models/account_cheque.py:0
+#, python-format
+msgid "There Is No Any Cheque Details."
+msgstr "Il n'y a pas de détails de vérification."
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_report_wizard__to_date
+msgid "To Date"
+msgstr "À ce jour"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields.selection,name:bi_account_cheque.selection__account_cheque__status1__transfered
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.account_incoming_cheque_form_view
+msgid "Transfered"
+msgstr "Transféré"
+
+#. module: bi_account_cheque
+#: model:ir.model.fields,field_description:bi_account_cheque.field_cheque_transfered_wizard__transfered_date
+msgid "Transfered Date"
+msgstr "Date de transfert"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_account_cheque
+msgid "account.cheque"
+msgstr ""
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_cheque_transfered_wizard
+msgid "cheque.transfered.wizard"
+msgstr ""
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_cheque_wizard
+msgid "cheque.wizard"
+msgstr ""
+
+#. module: bi_account_cheque
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_transfered_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.cheque_wizard_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_account_cheque.report_form_account_cheque
+msgid "or"
+msgstr "ou alors"
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_report_bi_account_cheque_account_cheque_template
+msgid "report.bi_account_cheque.account_cheque_template"
+msgstr ""
+
+#. module: bi_account_cheque
+#: model:ir.model,name:bi_account_cheque.model_report_wizard
+msgid "report.wizard"
+msgstr ""

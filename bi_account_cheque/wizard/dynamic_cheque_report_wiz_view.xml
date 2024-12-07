@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="dynamic_cheque_report_form" model="ir.ui.view">
+			<field name="name">dynamic.cheque.report.form</field>
+			<field name="model">dynamic.cheque.report.wizard</field>
+			<field name="arch" type="xml">
+				<form string="Dynamic Cheque">
+                    <group>
+                        <field name="cheque_format" placeholder="Select Cheque Format" style="color:#898687" options="{'no_create': True}"/>
+                        <field name="cheque_id" invisible="1"/>
+                    </group>
+                    <footer>
+                    	<button name="dynamic_cheque_button" type="object" string="Print" class="btn btn-primary active" data-toggle="tooltip"/>
+                        <button string="Cancel" class="btn btn-danger disabled" special="cancel"/>
+                    </footer>
+                </form>	
+			</field>
+		</record>
+
+        <record id="dynamic_cheque_print_wizard_view" model="ir.actions.act_window">
+           <field name="name">Dynamic Cheque</field>
+           <field name="res_model">dynamic.cheque.report.wizard</field>
+           <field name="view_mode">form</field>
+           <field name="target">new</field>
+        </record>
+
+	</data>
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data>
+     
+	     <record id="account_cheque_report_id" model="ir.actions.report">
+	        <field name="name">Account Cheque</field>
+	        <field name="model">account.cheque</field>
+	        <field name="report_type">qweb-pdf</field>
+	        <field name="report_name">bi_account_cheque.account_cheque_template</field>
+	        <field name="report_file">bi_account_cheque.account_cheque_template</field>
+	        <field name="binding_model_id" ref=""/>
+	     </record>
+
+	     <record id="dynamic_cheque_report" model="ir.actions.report">
+	        <field name="name">Print Dynamic Cheque</field>
+	        <field name="model">account.cheque</field>
+	        <field name="report_type">qweb-pdf</field>
+	        <field name="report_name">bi_account_cheque.custom_report</field>
+	        <field name="report_file">bi_account_cheque.custom_report</field>
+	        <field name="binding_model_id" ref=""/>
+	        <field name="binding_type">report</field>
+	     </record>
+				
+     </data>
+</odoo>

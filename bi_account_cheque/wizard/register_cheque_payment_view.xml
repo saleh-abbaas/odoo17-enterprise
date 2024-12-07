@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="register_cheque_payment_form" model="ir.ui.view">
+			<field name="name">register.cheque.payment.form</field>
+			<field name="model">register.cheque.payment</field>
+			<field name="arch" type="xml">
+				<form string="Create Cheque">
+                   <group> 
+                        <group>
+                            <field name="partner_id" readonly="1"/>
+                            <field name="payment_amount" readonly="1" widget="monetary"/>
+                            <field name="currency_id" invisible="1"/>
+                            <field name="cheque_reference"/>
+                            <field name="cheque_number"/>
+                        </group>
+                        <group>
+                            <field name="payment_date"/>
+                            <field name="received_date" />
+                            <field name="bank_account_id"/>
+                            <field name="journal_id" options="{'no_create':1,'no_create_edit':1}"/>
+                        </group>
+                    </group>    
+                    <footer>
+                    	<button name="create_register_cheque" type="object" string="Create New Cheque" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>	
+			</field>
+		</record>
+
+        <record id="action_register_cheque_wizard" model="ir.actions.act_window">
+           <field name="name">Create Cheque</field>
+           <field name="res_model">register.cheque.payment</field>
+           <field name="view_mode">form</field>
+           <field name="target">new</field>
+        </record>
+
+	</data>
+</odoo>

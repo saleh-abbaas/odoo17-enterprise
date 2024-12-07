@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+
+		<record id="standerd_dynamic_cheque_format" model="dynamic.cheque">
+            <field name="cheque_name">Standard Cheque</field>
+            <field name="cheque_height"> 80 </field>
+            <field name="cheque_width"> 180 </field>
+            <field name="account_pay" eval="True" /> 
+            <field name="account_top_margin"> 20 </field>
+            <field name="account_left_margin"> 40 </field>
+            <field name="account_font"> 20 </field>
+            <field name="cheque_top_margin"> 00 </field>
+            <field name="cheque_left_margin"> 135 </field>
+            <field name="cheque_font"> 18 </field>
+            <field name="cheque_char_speace"> 12 </field>
+            <field name="payee_top_margin"> 00 </field>
+            <field name="payee_left_margin"> 93 </field>
+            <field name="payee_width"> 30 </field>
+            <field name="payee_font"> 24 </field>
+            <field name="af_top_tmargin"> 00 </field>
+            <field name="af_left_tmargin"> 2 </field>
+            <field name="af_width"> 20 </field>
+            <field name="af_font"> 22 </field>
+            <field name="currency_symbol"> True </field>
+            <field name="amount_first_tmargin"> 20 </field>
+            <field name="amount_first_lmargin"> 00 </field>
+            <field name="amount_first_line_width"> 20 </field>
+            <field name="amount_word_fline"> 100 </field>
+            <field name="amount_second_tmargin"> 00 </field>
+            <field name="amount_second_lmargin"> 40 </field>
+            <field name="amount_second_line_width"> 00 </field>
+            <field name="amount_word_sline"> 00 </field>
+            <field name="amount_font"> 20 </field>
+            <field name="currency_name"> True </field>
+            <field name="company_name"> True </field>
+            <field name="company_font"> 22 </field>
+            <field name="company_top_margin"> 00 </field>
+            <field name="company_left_margin"> 10 </field>
+            <field name="signature_width"> 100 </field>
+            <field name="signature_height"> 30 </field>
+            <field name="signature_top_margin"> 00 </field>
+            <field name="signature_left_margin"> 900 </field>
+        </record>
+
+	</data>
+</odoo>

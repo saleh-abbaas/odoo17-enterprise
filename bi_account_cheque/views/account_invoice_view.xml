@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>	
+		<record id="account_move_form_view" model="ir.ui.view">
+			<field name="name">Account Move form View</field>
+			<field name="model">account.move</field>
+ 			<field name="inherit_id" ref="account.view_move_form"/>
+			<field name="arch" type="xml">			
+				<xpath expr="/form/header/button[@name='action_register_payment']" position="after">
+					
+					<button name="%(bi_account_cheque.action_register_cheque_wizard)d"  type="action" string="Create PDC Cheque"  class="oe_highlight" invisible="state in ('draft') or not pdc_cheque"/>      
+				</xpath>
+				<field name="payment_reference" position="after">
+                	<field name="pdc_cheque" invisible="1" />
+                </field>
+		    </field>
+		</record>
+
+		<record id="account_journal_form_view" model="ir.ui.view">
+			<field name="name">Account Journal form View</field>
+			<field name="model">account.journal</field>
+ 			<field name="inherit_id" ref="account.view_account_journal_form"/>
+			<field name="arch" type="xml">			
+				<field name="type" position="after">
+                	<field name="cheque_payment"/>
+                </field>
+		    </field>
+		</record>
+    </data>
+</odoo>

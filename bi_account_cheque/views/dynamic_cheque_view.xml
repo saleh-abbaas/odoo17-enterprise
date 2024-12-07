@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <data>
+      <record id="dynamic_cheque_form_view" model="ir.ui.view">
+			<field name="name">dynamic.cheque.form.view</field>
+			<field name="model">dynamic.cheque</field>
+			<field name="arch" type="xml">
+				<form string="Cheque">
+					<sheet>
+						<div class="alert alert-success" role="alert">
+						<strong>Note :</strong> Consider value of all the parameter in px.
+						</div>
+						<group>
+							<field name="cheque_name" placeholder="Cheque Format"/>
+						</group>
+						<group col="2">
+							<group string="Cheque Dimention">
+								<group>
+									<field name="cheque_height"/>
+									<field name="cheque_width"/>
+								</group>
+						   </group>
+						   <group string="A/C Pay" colspan="1" col="2">
+								<group>
+									<field name="account_pay"/>
+									<field name="account_top_margin"/>
+									<field name="account_left_margin"/>
+									<field name="account_font"/>
+								</group>
+						   </group>	
+						   <group string="Cheque Date" colspan="1" col="2">
+						   	<group>
+									<field name="cheque_top_margin"/>
+									<field name="cheque_left_margin"/>
+									<field name="cheque_font"/>
+									<field name="cheque_char_speace"/>
+								</group>
+							</group>
+							<group string="Party's/Payee Name" colspan="1" col="2">
+						   	<group>
+									<field name="payee_top_margin"/>
+									<field name="payee_top_margin"/>
+									<field name="payee_width"/>
+									<field name="payee_font"/>
+								</group>
+							</group>
+						</group>
+						<group string="Amount In Word">
+					   	<group>
+								<field name="amount_first_tmargin"/>
+								<field name="amount_first_lmargin"/>
+								<field name="amount_first_line_width"/>
+								<field name="amount_word_fline"/>
+								<field name="amount_second_tmargin"/>
+							</group>
+							<group>
+								<field name="amount_second_lmargin"/>
+								<field name="amount_second_line_width"/>
+								<field name="amount_word_sline"/>
+								<field name="amount_font"/>
+								<field name="currency_name"/>
+								<field name="currency_name_position"/>
+							</group>
+						</group>
+						<group col="2">
+							<group string="Amount In Figure" colspan="1" col="2">
+						   	<group>
+									<field name="af_top_tmargin"/>
+									<field name="af_left_tmargin"/>
+									<field name="af_width"/>
+									<field name="af_font"/>
+									<field name="currency_symbol"/>
+									<field name="currency_symbol_position"/>
+								</group>
+							</group>
+							<group string="Company Signatory" colspan="1" col="2">
+						   	<group>
+									<field name="company_name"/>
+									<field name="company_font"/>
+									<field name="company_top_margin"/>
+									<field name="company_left_margin"/>
+								</group>
+							</group>
+							<group string="Signature Box" colspan="1" col="2">
+						   	<group>
+									<field name="signature_width"/>
+									<field name="signature_height"/>
+									<field name="signature_top_margin"/>
+									<field name="signature_left_margin"/>
+									<field name="signature_image_medium"/>
+								</group>
+							</group>
+						</group>	
+					</sheet>
+		      </form>
+		   </field>
+		</record>
+
+		<record id="dynamic_cheque_tree_view" model="ir.ui.view">
+			<field name="name">dynamic.cheque.tree.view</field>
+			<field name="model">dynamic.cheque</field>
+			<field name="arch" type="xml">
+				<tree string="Cheque">
+					<field name="cheque_name"/>
+				</tree>
+			</field>
+		</record>
+
+	   <record id="act_dynamic_cheque" model="ir.actions.act_window">
+         <field name="name">Cheque</field>
+         <field name="res_model">dynamic.cheque</field>
+         <field name="view_mode">tree,form</field>
+      </record>
+
+
+      <menuitem action="act_dynamic_cheque" id="dynamic_cheque_config_menu" parent="account.menu_finance_configuration"/>
+
+	</data>
+</odoo>			      				
